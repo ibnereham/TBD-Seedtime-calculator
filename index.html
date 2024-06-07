@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TBD CALCULATOR</title>
+</head>
+<body>
+    <div id="container">
+        <div id="questionBox">
+            <div class="questions">        
+                <label class="question" for="currentSBR">Current Seedbonux rate?</label>
+                <input class="answer" type="number" id="currentSBR" placeholder="Example: 29.84" >
+            </div>
+            <div class="questions">
+                <label class="question" for="currentSB">What is your current seedbonux?</label>
+                <input class="answer" type="number" name="CurrentSB" id="currentSB" placeholder="Example: 100.69">
+            </div>
+            <div class="questions">
+                <label class="question" for="target">What is your target seedbonux?</label>
+                <input class="answer" type="number" name="target" id="targetSB" placeholder="Example: 150000">
+            </div>
+            <div class="questions">
+                <label class="question" for="numberOfTorrents">How many torrents are you seeding?</label>
+                <input class="answer" type="number" name="numberOfTorrents" id="numberOfTorrents" placeholder="Example: 10">
+            </div>
+            <button id="calcButton">Calculate</button>
+            <div id="answerBox">
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

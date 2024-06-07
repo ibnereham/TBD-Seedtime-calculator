@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Coolvetica;
+    src: url(coolvetica/main.otf);
+}
+html{
+    background-color: #212328;
+    color: rgba(184, 198, 204, 1);
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+margin-left: 5vw;
+margin-right: 5vw;
+margin-top: 5vh;
+height: fit-content;
+border: dashed;
+background-color: #2b2d33;
+border-radius: 10px;
+width: 650px;
+}
+
+#questionBox{
+    margin-top: 5%;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: auto;
+}
+
+.questions{
+    font-family: Coolvetica;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+.question{
+    font-size: xx-large;
+}
+.answer{
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(184, 198, 204, 1);
+    font-size: x-large;
+    font-family: Coolvetica;
+}
+button{
+    width: 100px;
+    align-self: center;
+    height:50px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: #4db6ac89;
+    color: rgba(184, 198, 204, 1);
+    border: dashed;
+}
+
+#answerBox{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
