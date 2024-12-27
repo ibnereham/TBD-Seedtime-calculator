@@ -2,25 +2,25 @@
     font-family: Coolvetica;
     src: url(coolvetica/main.otf);
 }
-html{
+html {
     background-color: #212328;
     color: rgba(184, 198, 204, 1);
     display: flex;
     justify-content: center;
 }
 
-#container{
-margin-left: 5vw;
-margin-right: 5vw;
-margin-top: 5vh;
-height: fit-content;
-border: dashed;
-background-color: #2b2d33;
-border-radius: 10px;
-width: 650px;
+#container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    height: fit-content;
+    border: dashed;
+    background-color: #2b2d33;
+    border-radius: 10px;
+    width: 650px;
 }
 
-#questionBox{
+#questionBox {
     margin-top: 5%;
     margin-left: 1vh;
     margin-right: 1vh;
@@ -32,7 +32,7 @@ width: 650px;
     width: auto;
 }
 
-.questions{
+.questions {
     font-family: Coolvetica;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -41,19 +41,54 @@ width: 650px;
     display: flex;
     flex-direction: column;
 }
-.question{
-    font-size: xx-large;
+
+.question {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: x-large;
+    font-family: Coolvetica;
+    color: rgba(184, 198, 204, 1);
 }
-.answer{
-    background-color: rgba(0,0,0,0.5);
+.questions1{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    font-size: x-large;
+    font-family: Coolvetica;
+    color: rgba(184, 198, 204, 1);
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ansCheckBox {
+    width: 20px; /* Adjusted width for better visibility */
+    height: 20px; /* Adjusted height for better visibility */
+    margin-right: 10px; /* Spacing between checkbox and label */
+    border: 2px solid #4db6ac; /* Add border to match the theme */
+    border-radius: 4px; /* Slightly rounded corners for a modern look */
+    background-color: #2b2d33; /* Match container background */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.ansCheckBox:checked {
+    background-color: #4db6ac; /* Highlighted background when checked */
+    border-color: #82e0d6; /* Brighter border when checked */
+}
+
+.answer {
+    background-color: rgba(0, 0, 0, 0.5);
     color: rgba(184, 198, 204, 1);
     font-size: x-large;
     font-family: Coolvetica;
 }
-button{
+
+
+button {
     width: 100px;
     align-self: center;
-    height:50px;
+    height: 50px;
     border-radius: 10px;
     font-size: large;
     background-color: #4db6ac89;
@@ -61,7 +96,7 @@ button{
     border: dashed;
 }
 
-#answerBox{
+#answerBox {
     font-size: x-large;
     display: flex;
     justify-content: center;

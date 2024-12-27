@@ -12,27 +12,29 @@
     <div id="container">
         <div id="questionBox">
             <div class="questions">        
-                <label class="question" for="currentSBR">Current Seedbonux rate?</label>
-                <input class="answer" type="number" id="currentSBR" placeholder="Example: 29.84" >
+                <label class="question" for="currentSBR">Current Seedbonus rate?</label>
+                <input class="answer" type="number" id="currentSBR" placeholder="Example: 29.84">
             </div>
             <div class="questions">
-                <label class="question" for="currentSB">What is your current seedbonux?</label>
-                <input class="answer" type="number" name="CurrentSB" id="currentSB" placeholder="Example: 100.69">
+                <label class="question" for="currentSB">Current seedbonus?</label>
+                <input class="answer" type="number" id="currentSB" placeholder="Example: 100.69">
             </div>
             <div class="questions">
-                <label class="question" for="target">What is your target seedbonux?</label>
-                <input class="answer" type="number" name="target" id="targetSB" placeholder="Example: 150000">
+                <label class="question" for="targetSB">Target seedbonus?</label>
+                <input class="answer" type="number" id="targetSB" placeholder="Example: 150000">
             </div>
             <div class="questions">
-                <label class="question" for="numberOfTorrents">How many torrents are you seeding?</label>
-                <input class="answer" type="number" name="numberOfTorrents" id="numberOfTorrents" placeholder="Example: 10">
+                <label class="question" for="numberOfTorrents">How many torrents you seeding?</label>
+                <input class="answer" type="number" id="numberOfTorrents" placeholder="Example: 10">
+            </div>
+            <div class="questions1">
+                <h1 class="question" for="doubleBonus">Enable Double Bonus Mode</h1>
+                <input type="checkbox" id="doubleBonus" class="ansCheckBox">
             </div>
             <button id="calcButton">Calculate</button>
-            <div id="answerBox">
-            </div>
+            <div id="answerBox"></div>
         </div>
-        
     </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
