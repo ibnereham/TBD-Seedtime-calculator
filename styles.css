@@ -8,6 +8,18 @@ html {
     display: flex;
     justify-content: center;
 }
+/* Hide the spinner in modern browsers */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+/* Hide the spinner for Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 
 #container {
     margin-left: 5vw;
@@ -28,7 +40,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 500px;
+    height: 600px;
     width: auto;
 }
 
